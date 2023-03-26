@@ -9,14 +9,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.28.0",
+    "@trpc/client": "^10.18.0",
+    "@trpc/next": "^10.18.0",
+    "@trpc/react-query": "^10.18.0",
+    "@trpc/server": "^10.18.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "wretch": "^2.5.1",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
+    "next": "^13.2.4",
     "typescript": "^4.9.3",
+    "vercel": "^28.18.1",
     "vite": "^4.2.0"
   }
 }
